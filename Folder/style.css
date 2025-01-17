@@ -10,9 +10,12 @@ header{
     height: 100px;
     background-color: gray;
 }
-nav{
+#nawi{
     height: 100px;
     background-color: gainsboro;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 footer{
     height: 100px;
@@ -30,15 +33,26 @@ main{
     width: 300px;
     background-color: antiquewhite;
 }
-nav ul li{
+#nawi ul li{
     display: inline;
     list-style-type: none;
 }
-nav ul li a{
+#nawi ul li a{
 text-decoration: none;
 color: white;
 }
-nav ul li a:hover{
+#nawi ul li a:hover{
+    color: black;   
+    border: inset black 1px;
+}
+#linki ul li {
+    list-style-type: none;
+}
+#linki nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#linki nav ul li a:hover{
     color: black;
     border: inset black 1px;
 }
