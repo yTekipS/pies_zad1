@@ -1,39 +1,44 @@
-
+body{
+    display: grid;
+    text-align: center; 
+    justify-content: center;
+}
+#box{
+    width: 800px;
+}
 header{
     height: 100px;
-    width: 800px;
-    text-align: center;
     background-color: gray;
 }
 nav{
     height: 100px;
-    width: 800px;
-    text-align: center;
     background-color: gainsboro;
 }
 footer{
     height: 100px;
-    width: 800px;
-    text-align: center;
     background-color: gainsboro;
 }
 main{
     height: 400px;
-    width: 800px;
     display: inline-flex;
 }
 #tresc{
-    text-align: center;
-    height: 400px;
     width: 500px;
     background-color: aliceblue;
 }
 #linki{
-    text-align: center; 
-    height: 400px;
-    width: 308px;
+    width: 300px;
     background-color: antiquewhite;
 }
-
-
-
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+    color: black;
+    border: inset black 1px;
+}
