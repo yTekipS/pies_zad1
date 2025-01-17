@@ -5,6 +5,7 @@ body{
 }
 #box{
     width: 800px;
+    height: 700px;
 }
 header{
     height: 100px;
@@ -20,6 +21,8 @@ header{
 footer{
     height: 100px;
     background-color: gainsboro;
+    text-align: left;
+    font-size:0.9rem
 }
 main{
     height: 400px;
@@ -28,6 +31,8 @@ main{
 #tresc{
     width: 500px;
     background-color: aliceblue;
+    text-align: left;
+    font-size:1.4rem
 }
 #linki{
     width: 300px;
@@ -40,6 +45,7 @@ main{
 #nawi ul li a{
 text-decoration: none;
 color: white;
+font-size: 2rem;
 }
 #nawi ul li a:hover{
     color: black;   
@@ -51,8 +57,13 @@ color: white;
 #linki nav ul li a{
     text-decoration: none;
     color: white;
+    font-size: 2rem;
 }
 #linki nav ul li a:hover{
     color: black;
     border: inset black 1px;
+}
+img {
+    height:90px;
+    width: auto;
 }
